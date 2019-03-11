@@ -1,4 +1,4 @@
-node {
+node('centos') {
    def mvnHome
    stage('Preparation') { // for display purposes
       git 'https://github.com/RomanOrlovskiy/hello-world-war.git'
